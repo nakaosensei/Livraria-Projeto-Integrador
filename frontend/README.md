@@ -137,7 +137,7 @@ Finalmente criamos os arquivos de ambas as páginas, mas eles ainda não foram v
 
 O próximo passo é possibilitar que o site disponibilize páginas diferentes em url's específicas, para esse fim, podemos usar o BrowserRouter do React.
 
-#Instalando o react-router-dom
+# Instalando o react-router-dom
 Para dar suporte a diferentes rotas em nossa aplicação, precisamos importar o react-router-dom, que permite criar rotas em aplicações React de forma declarativa. 
 
 Principais funcionalidades da biblioteca:
