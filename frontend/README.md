@@ -114,7 +114,7 @@ O JSX é convertido pelo React em código que o navegador entende e renderiza na
 
 
 export default Home;
-*/
+/*
 O export default permite que o componente Home seja exportado para que possa ser usado em outros arquivos. Isso é fundamental em projetos React, pois você organiza a aplicação em vários componentes que podem ser importados onde necessário.
 */
 ```
