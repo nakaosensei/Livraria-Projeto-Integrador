@@ -49,7 +49,7 @@ Acesse o diretorio do seu projeto, entre na pasta src, observe que temos alguns 
 
 Para importar o Tailwind, basta o importar no arquivo index.css, que é a folha de estilo importada pelo main.jsx.
 ```bash
-@import "@tailwindcss";
+@import "tailwindcss";
 ```
 # Executando o projeto pela primeira vez
 ```bash
