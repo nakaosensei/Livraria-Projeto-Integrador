@@ -137,6 +137,23 @@ Finalmente criamos os arquivos de ambas as páginas, mas eles ainda não foram v
 
 O próximo passo é possibilitar que o site disponibilize páginas diferentes em url's específicas, para esse fim, podemos usar o BrowserRouter do React.
 
+#Instalando o react-router-dom
+Para dar suporte a diferentes rotas em nossa aplicação, precisamos importar o react-router-dom, que permite criar rotas em aplicações React de forma declarativa. 
+
+Principais funcionalidades da biblioteca:
+1) Navegar entre páginas diferentes sem recarregar o site.
+
+2) Associar URLs específicas a componentes (ex: /home renderiza <Home />).
+
+3) Criar links internos com <Link> em vez de <a> para evitar reloads.
+
+4) Definir rotas aninhadas, rotas dinâmicas (ex: /livro/:id) e muito mais.
+
+Finalmente, para a instalar, use:
+```bash
+npm install react-router-dom
+```
+
 # Configurando as rotas
 Abra o arquivo App.jsx, e digite o seguinte:
 ```javascript
