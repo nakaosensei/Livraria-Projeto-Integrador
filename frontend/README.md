@@ -18,7 +18,7 @@ cd src
 npm install tailwindcss @tailwindcss/vite
 ```
 
-# Configurano o tailwind
+# Configurando o tailwind
 Abra o arquivo vite.config.ts ou vite.config.js (fica dentro da pasta do projeto)
 Adicione o seguinte import: 
 ```javascript
@@ -38,9 +38,13 @@ export default defineConfig({
 # Importando o Tailwind
 Acesse o diretorio do seu projeto, entre na pasta src, observe que temos alguns arquivos distintos.
 📄 main.jsx : É a raiz do projeto, o primeiro código a ser invocado.
+
 📄 App.jsx  : Observe que dentro do main.jsx, ele importa o conteúdo do App.jsx, que contém uma página padrão gerada pelo comando que criou o projeto.
+
 📄 index.css: É o arquivo de estilos global do projeto, observe que ele é importado no main.jsx
+
 📄 App.css  : Arquivo de estilos do App.css.
+
 📁 assets: Diretório com icones pré-criado.
 
 Para importar o Tailwind, basta o importar no arquivo index.css, que é a folha de estilo importada pelo main.jsx.
@@ -61,10 +65,15 @@ mkdir pages
 ```
 Segue a nova estrutura do src do projeto:
 📄 main.jsx : É a raiz do projeto, o primeiro código a ser invocado.
+
 📄 App.jsx  : Observe que dentro do main.jsx, ele importa o conteúdo do App.jsx, que contém uma página padrão gerada pelo comando que criou o projeto.
+
 📄 index.css: É o arquivo de estilos global do projeto, observe que ele é importado no main.jsx
+
 📄 App.css  : Arquivo de estilos do App.css.
+
 📁 assets   : Diretório com icones pré-criado.
+
 📁 pages    : Armazena as páginas do projeto.
 
 Crie dois diretórios dentro da pasta pages, Home e About
